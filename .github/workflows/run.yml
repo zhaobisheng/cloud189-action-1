@@ -28,7 +28,8 @@ jobs:
         
         user='${{ secrets.USER }}'
         pwd='${{ secrets.PWD }}'
-        
+        echo "account:"
+        echo $user
         user_list=()
         pwd_list=()
 
